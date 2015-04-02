@@ -1,6 +1,6 @@
 cask :v1 => 'puppet' do
-  version '3.7.4'
-  sha256 '8eb17151199cc8c726fd64a56aba20b25627f699ce841ce9d04dbe59edbe3223'
+  version 'latest'
+  sha256 :no_check
 
   url "http://downloads.puppetlabs.com/mac/puppet-#{version}.dmg"
   homepage 'http://puppetlabs.com/'
